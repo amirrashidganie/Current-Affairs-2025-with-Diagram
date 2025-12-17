@@ -503,11 +503,11 @@ const App = () => {
 
             {/* Mnemonic Footer */}
             <div className="mt-6 bg-gray-50 p-4 rounded-xl border border-green-100 shadow-md">
-              <div className="flex items-center gap-2 mb-2 text-purple-600 font-bold text-sm uppercase tracking-wide">
+              <div className="flex items-center text-orange-600 gap-2 mb-2 font-bold text-sm uppercase tracking-wide">
                 <IconBookOpen className="w-4 h-4" />
                 Mnemonic Story/Focus (Detailed)
               </div>
-              <p className="text-sm text-[#71CAAF] font-bold leading-relaxed whitespace-pre-line">{activeCategory.story}</p>
+              <p className="text-sm text-purple-600 font-bold leading-relaxed whitespace-pre-line">{activeCategory.story}</p>
             </div>
           </div>
 
